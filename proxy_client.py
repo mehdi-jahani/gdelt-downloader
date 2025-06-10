@@ -1,6 +1,6 @@
 import requests
 
-USE_PROXY = True  # Its value can be controlled in the main file
+USE_PROXY = False  # Its value can be controlled in the main file
 
 # Load the list of proxies from a file
 def load_proxies_from_file(filename="proxies.txt"):

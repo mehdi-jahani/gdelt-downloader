@@ -4,7 +4,7 @@ import logging
 from time import sleep
 
 # Control variable for using proxy
-USE_PROXY = True  
+USE_PROXY = False  
 
 from proxy_client import get_with_proxy  
 
@@ -96,6 +96,9 @@ def download_file(url, save_path, retry=True):
 
             logging.info(f"Saved: {save_path} ({size_kb:.2f} KB)")
             print(f"Saved: {save_path} ({size_kb:.2f} KB)")
+            
+            sleep(2)  # Wait for 2 seconds after downloading
+            
             return True
         else:
             status = r.status_code if r else "No response"
