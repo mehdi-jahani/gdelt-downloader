@@ -100,7 +100,7 @@ VALID_WEEKDAYS = set([0, 1, 2, 3, 4])  # Monday to Friday
 
 ## 📦 Download
 
-👉 [**Download the project as ZIP**](https://github.com/mehdi-jahani/gdelt-downloader/archive/refs/heads/main.zip) *(replace with your actual GitHub link)*
+👉 [**Download the project as ZIP**](https://github.com/mehdi-jahani/gdelt-downloader/archive/refs/heads/main.zip)
 
 Or clone it:
 
